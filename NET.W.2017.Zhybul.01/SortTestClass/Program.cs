@@ -22,14 +22,14 @@ namespace SortTestClass
             Console.WriteLine("MergeSort:");
             for (int i = 0; i < sorted.Length; i++)
             {
-                Console.Write(sorted[i] + ' ');
+                Console.Write(sorted[i] + " ");
             }
 
             IntegerSorting.QuickSort(array, 0, array.Length - 1);
-            Console.WriteLine("QuickSort:");
+            Console.WriteLine("\nQuickSort:");
             for (int i = 0; i < array.Length; i++)
             {
-                Console.Write(sorted[i] + ' ');
+                Console.Write(sorted[i] + " ");
             }
 
             Console.ReadKey();
