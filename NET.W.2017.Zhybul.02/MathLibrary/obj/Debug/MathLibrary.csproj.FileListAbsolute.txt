@@ -6,3 +6,4 @@ D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary\b
 D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary\bin\Debug\MathLibrary.pdb
 D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary\obj\Debug\MathLibrary.dll
 D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary\obj\Debug\MathLibrary.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache

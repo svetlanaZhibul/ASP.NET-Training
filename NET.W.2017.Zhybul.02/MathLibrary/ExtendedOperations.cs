@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
@@ -8,6 +9,7 @@ namespace MathLibrary
     public class ExtendedOperations
     {
 
+        #region InsertNumberLogic
         public static int InsertNumber(int numberToBeSet, int source, int start, int end)
         {
             if (start > end)
@@ -40,9 +42,113 @@ namespace MathLibrary
             return Convert.ToInt32(binarystring, 2);
         }
 
+        private static void FillWithZeros(ref string number, int size)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append('0', size);
+            number += sb;
+        }
+        #endregion
+
+        #region NextBiggerNumberLogic
+        public static List<object> NextBiggerNumberAndTimeWithList(long number)
+        {
+            var list = new List<object>();
+
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
+            long nextBigger = NextBiggerNumber(number);
+
+            sw.Stop();
+            TimeSpan ts = sw.Elapsed;
+            int totalMSec = (int)ts.TotalMilliseconds;
+
+            list.Add(nextBigger);
+            list.Add(totalMSec);
+
+            return list;
+        }
+
+        public static IEnumerable<object> NextBiggerNumberAndTimeWithYield(long number)
+        {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
+            long nextBigger = NextBiggerNumber(number);
+
+            sw.Stop();
+            TimeSpan ts = sw.Elapsed;
+            int totalMSec = (int)ts.TotalMilliseconds;
+
+            yield return nextBigger;
+            yield return totalMSec;
+        }
+
+        public static Tuple<long, int> NextBiggerNumberAndTimeWithTuple(long number)
+        {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
+            long nextBigger = NextBiggerNumber(number);
+
+            sw.Stop();
+            TimeSpan ts = sw.Elapsed;
+            int totalMSec = (int)ts.TotalMilliseconds;
+
+            return Tuple.Create(nextBigger, totalMSec);
+        }
+
+        public static long NextBiggerNumber(long number)
+        {
+            if (number <= 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(number));
+            }
+
+            if (IsDecreasing(number))
+            {
+                return -1;
+            }
+            
+            string snumber = ToSortedString(number);
+            long next = ++number;
+            string sNext = ToSortedString(next);
+
+            while (snumber != sNext)
+            {
+                sNext = ToSortedString(++next);
+            }
+            
+            return next;
+        }
+
+        private static string ToSortedString(long number)
+        {
+            var array = number.ToString().ToCharArray();
+            Array.Sort(array);
+            return new String(array);
+        }
+
+        private static bool IsDecreasing(long n)
+        {
+            int prevDigit = (int)n % 10;
+            n = n / 10;
+            while (n != 0)
+            {
+                if (prevDigit > n % 10) return false;
+                prevDigit = (int)n % 10;
+                n = n / 10;
+            }
+
+            return true;
+        } 
+        #endregion
+
+        #region FilterDigitLogic
         public static int[] FilterDigit(int digit, params int[] value)
         {
-            if ( digit / 10 != 0 )
+            if (digit / 10 != 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(digit));
             }
@@ -64,6 +170,24 @@ namespace MathLibrary
 
             return result.ToArray();
         }
+
+        private static bool ContainsDigit(int number, int digit)
+        {
+            if (number == 0 && digit == 0)
+            {
+                return true;
+            }
+            while (number > 0)
+            {
+                if (number % 10 == digit)
+                    return true;
+                number /= 10;
+            }
+            return false;
+        }
+        #endregion
+
+        #region FindNthRootLogic
         public static double FindNthRoot(double number, int basis, double eps = 0.0001)
         {
             if (basis <= 0)
@@ -100,29 +224,7 @@ namespace MathLibrary
                 eps *= 10;
             }
 
-            return Math.Floor((x1*precision + 0.5)) / precision;
-        }
-
-        private static void FillWithZeros(ref string number, int size)
-        {
-            StringBuilder sb = new StringBuilder();
-            sb.Append('0', size);
-            number += sb;
-        }
-
-        private static bool ContainsDigit(int number, int digit)
-        {
-            if (number == 0 && digit == 0)
-            {
-                return true;
-            }
-            while (number > 0)
-            {
-                if (number % 10 == digit)
-                    return true;
-                number /= 10;
-            }
-            return false;
+            return Math.Floor((x1 * precision + 0.5)) / precision;
         }
 
         private static double RelatedFunction(double root, int basis, double number)
@@ -132,6 +234,8 @@ namespace MathLibrary
         private static double RelatedDerivative(double root, int basis)
         {
             return Math.Pow(root, basis - 1) * basis;
-        }
+        } 
+        #endregion
+
     }
 }
