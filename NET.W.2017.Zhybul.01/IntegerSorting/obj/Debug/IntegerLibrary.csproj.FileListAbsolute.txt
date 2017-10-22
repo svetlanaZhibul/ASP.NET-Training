@@ -3,3 +3,7 @@ E:\downloads\NET.W.2017.Zhybul-master\NET.W.2017.Zhybul.01\IntegerSorting\bin\De
 E:\downloads\NET.W.2017.Zhybul-master\NET.W.2017.Zhybul.01\IntegerSorting\obj\Debug\IntegerLibrary.csprojResolveAssemblyReference.cache
 E:\downloads\NET.W.2017.Zhybul-master\NET.W.2017.Zhybul.01\IntegerSorting\obj\Debug\IntegerSorting.dll
 E:\downloads\NET.W.2017.Zhybul-master\NET.W.2017.Zhybul.01\IntegerSorting\obj\Debug\IntegerSorting.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\IntegerSorting\bin\Debug\IntegerSorting.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\IntegerSorting\bin\Debug\IntegerSorting.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\IntegerSorting\obj\Debug\IntegerSorting.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\IntegerSorting\obj\Debug\IntegerSorting.pdb

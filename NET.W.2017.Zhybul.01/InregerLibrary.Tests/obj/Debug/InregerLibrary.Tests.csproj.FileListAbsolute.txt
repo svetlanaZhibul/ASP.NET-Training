@@ -1,0 +1,9 @@
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\InregerLibrary.Tests.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\InregerLibrary.Tests.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\IntegerSorting.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\IntegerSorting.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\obj\Debug\InregerLibrary.Tests.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\obj\Debug\InregerLibrary.Tests.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.01\InregerLibrary.Tests\obj\Debug\InregerLibrary.Tests.pdb

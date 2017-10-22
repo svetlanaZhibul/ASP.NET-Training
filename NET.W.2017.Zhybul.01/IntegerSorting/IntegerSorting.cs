@@ -9,16 +9,48 @@ namespace IntegerLibrary
     public class IntegerSorting
     {
 
-        public static int[] MergeSort(int[] m)
+        public static void MergeSort(int[] array)
         {
-            if (m.Length < 2)
+            if (array == null)
             {
-                return m;
+                throw new ArgumentNullException(nameof(array));
             }
 
-            return Merge(MergeSort(m.Take(m.Length / 2).ToArray()), MergeSort(m.Skip(m.Length / 2).ToArray()));
-        }
+            if (array.Length < 2)
+            {
+                return;
+            }
 
+            MergeSort(array, 0, array.Length - 1);
+        }
+        public static void MergeSort(int[] array, int left, int right)
+        {
+            if (right - left < 1)
+            {
+                return;
+            }
+
+            int delimiter = left + (right - left + 1) / 2;
+
+            MergeSort(array, left, delimiter - 1);
+            MergeSort(array, delimiter, right);
+
+            Merge(array, left, right, delimiter);
+        }
+        public static void QuickSort(int[] array)
+        {
+            if (array == null)
+            {
+                throw new ArgumentNullException(nameof(array));
+            }
+
+            if (array.Length < 2)
+            {
+                return;
+            }
+
+            QuickSort(array, 0, array.Length - 1);
+        }
         public static void QuickSort(int[] arr, int left, int right)
         {
             int index = Partition(arr, left, right);
@@ -28,26 +60,40 @@ namespace IntegerLibrary
                 QuickSort(arr, index, right);
         }
 
-        private static int[] Merge(int[] left, int[] right)
+        private static void Merge(int[] array, int left, int right, int delimiter)
         {
-            List<int> result = new List<int>();
-            int l1 = 0, r1 = 0;
+            int[] arrayCopy = new int[right - left + 1];
 
-            while (l1 < left.Length && r1 < right.Length)
+            for (int i = left; i <= right; i++)
             {
-                if (left[l1] < right[r1])
+                arrayCopy[i - left] = array[i];
+            }
+
+            int l1 = left, r1 = delimiter;
+            int currentIndex = left;
+
+            while (l1 < delimiter && r1 <= right)
+            {
+                if (arrayCopy[l1 - left] < arrayCopy[r1 - left])
                 {
-                    result.Add(left[l1++]);
+                    array[currentIndex++] = arrayCopy[l1++ - left];
                 }
                 else
                 {
-                    result.Add(right[r1++]);
+                    array[currentIndex++] = arrayCopy[r1++ - left];
                 }
             }
-            result.AddRange(left.Skip(l1));
-            result.AddRange(right.Skip(r1));
 
-            return result.ToArray<int>();
+            for (int i = l1; i < delimiter; i++)
+            {
+                array[currentIndex++] = arrayCopy[i - left];
+            }
+
+            for (int i = r1; i <= right; i++)
+            {
+                array[currentIndex++] = arrayCopy[i - left];
+            }
+
         }
 
         private static int Partition(int[] arr, int left, int right)
