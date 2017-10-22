@@ -7,3 +7,12 @@ D:\C#Projects\epam-course\NET.W.2017.Zhibul.02.1\MathLibrary.Tests\bin\Debug\ru\
 D:\C#Projects\epam-course\NET.W.2017.Zhibul.02.1\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.csprojResolveAssemblyReference.cache
 D:\C#Projects\epam-course\NET.W.2017.Zhibul.02.1\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.dll
 D:\C#Projects\epam-course\NET.W.2017.Zhibul.02.1\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\MathLibrary.Tests.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\MathLibrary.Tests.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\MathLibrary.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\MathLibrary.pdb
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.dll
+D:\C#Projects\epam.net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.02\MathLibrary.Tests\obj\Debug\MathLibrary.Tests.pdb
