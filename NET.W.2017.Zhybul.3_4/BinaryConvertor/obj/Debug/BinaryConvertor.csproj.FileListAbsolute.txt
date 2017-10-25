@@ -1,0 +1,4 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\BinaryConvertor\bin\Debug\BinaryConvertor.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\BinaryConvertor\bin\Debug\BinaryConvertor.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\BinaryConvertor\obj\Debug\BinaryConvertor.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\BinaryConvertor\obj\Debug\BinaryConvertor.pdb

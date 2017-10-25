@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgebraLibrary", "AlgebraLibrary\AlgebraLibrary.csproj", "{C8E1492E-1D32-4B99-BE12-EB794BD4AE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgebraLibrary.Tests", "AlgebraLibrary.Tests\AlgebraLibrary.Tests.csproj", "{08352834-7D10-4B82-B4A4-5C2B54CC1D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryConvertor", "BinaryConvertor\BinaryConvertor.csproj", "{EE21A77A-C31D-4705-9358-5DA588466C87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8E1492E-1D32-4B99-BE12-EB794BD4AE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E1492E-1D32-4B99-BE12-EB794BD4AE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E1492E-1D32-4B99-BE12-EB794BD4AE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E1492E-1D32-4B99-BE12-EB794BD4AE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08352834-7D10-4B82-B4A4-5C2B54CC1D87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08352834-7D10-4B82-B4A4-5C2B54CC1D87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08352834-7D10-4B82-B4A4-5C2B54CC1D87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08352834-7D10-4B82-B4A4-5C2B54CC1D87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE21A77A-C31D-4705-9358-5DA588466C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE21A77A-C31D-4705-9358-5DA588466C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE21A77A-C31D-4705-9358-5DA588466C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE21A77A-C31D-4705-9358-5DA588466C87}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

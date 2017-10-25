@@ -1,0 +1,9 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\AlgebraLibrary.Tests.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\AlgebraLibrary.Tests.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\AlgebraLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\AlgebraLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\obj\Debug\AlgebraLibrary.Tests.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\obj\Debug\AlgebraLibrary.Tests.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary.Tests\obj\Debug\AlgebraLibrary.Tests.pdb

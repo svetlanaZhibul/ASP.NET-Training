@@ -1,0 +1,4 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary\bin\Debug\AlgebraLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary\bin\Debug\AlgebraLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary\obj\Debug\AlgebraLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.3_4\AlgebraLibrary\obj\Debug\AlgebraLibrary.pdb
