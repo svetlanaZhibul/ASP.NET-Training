@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary\bin\Debug\ArrayLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary\bin\Debug\ArrayLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary\obj\Debug\ArrayLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary\obj\Debug\ArrayLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary\obj\Debug\ArrayLibrary.csprojResolveAssemblyReference.cache

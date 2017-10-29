@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\MathLibrary\bin\Debug\MathLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\MathLibrary\bin\Debug\MathLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\MathLibrary\obj\Debug\MathLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\MathLibrary\obj\Debug\MathLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\MathLibrary\obj\Debug\MathLibrary.csprojResolveAssemblyReference.cache
