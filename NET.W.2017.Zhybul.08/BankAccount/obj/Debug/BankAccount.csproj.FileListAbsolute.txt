@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BankAccount\bin\Debug\BankAccount.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BankAccount\bin\Debug\BankAccount.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BankAccount\obj\Debug\BankAccount.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BankAccount\obj\Debug\BankAccount.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BankAccount\obj\Debug\BankAccount.pdb

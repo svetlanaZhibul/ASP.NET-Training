@@ -1,0 +1,6 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\Runner.exe.config
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\Runner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\Runner.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\Runner.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\Runner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\Runner.pdb

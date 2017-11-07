@@ -1,0 +1,8 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\BankAccount.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\BankAccount.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\BankAccountRunner.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\BankAccountRunner.exe.config
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\BankAccountRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\bin\Debug\BankAccountRunner.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\BankAccountRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\Runner\obj\Debug\BankAccountRunner.pdb

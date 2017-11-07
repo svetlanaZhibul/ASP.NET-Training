@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelf\bin\Debug\BookShelf.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelf\bin\Debug\BookShelf.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelf\obj\Debug\BookShelf.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelf\obj\Debug\BookShelf.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelf\obj\Debug\BookShelf.pdb

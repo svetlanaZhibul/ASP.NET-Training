@@ -1,0 +1,8 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\bin\Debug\BookShelfRunner.exe.config
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\bin\Debug\BookShelfRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\bin\Debug\BookShelfRunner.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\bin\Debug\BookShelf.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\bin\Debug\BookShelf.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\obj\Debug\BookShelfRunner.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\obj\Debug\BookShelfRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.08\BookShelfRunner\obj\Debug\BookShelfRunner.pdb
