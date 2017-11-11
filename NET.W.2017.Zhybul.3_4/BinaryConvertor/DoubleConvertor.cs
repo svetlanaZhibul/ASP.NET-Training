@@ -10,23 +10,23 @@ namespace BinaryConvertor
     {
         // silly binary convertor using inbuild convertors
 
-        //public static string ToString(this double number)
-        //{
+        ////public static string ToString(this double number)
+        ////{
         //    long bits = BitConverter.DoubleToInt64Bits(Double.Epsilon);
         //    string s = Convert.ToString(bits, 2);
 
-        //    int diff = 64 - s.Length;
+        ////    int diff = 64 - s.Length;
         //    StringBuilder ss = FillWithZeros(s, diff);
         //    //Console.WriteLine(ss);
 
-        //    return ss
-        //}
-        //private static StringBuilder FillWithZeros(string number, int size)
-        //{
+        ////    return ss
+        ////}
+        ////private static StringBuilder FillWithZeros(string number, int size)
+        ////{
         //    StringBuilder sb = new StringBuilder();
         //    sb.Append('0', size);
         //    sb.Append(number);
         //    return sb;
-        //}
+        ////}
     }
 }
