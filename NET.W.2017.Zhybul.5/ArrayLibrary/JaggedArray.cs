@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 namespace ArrayLibrary
 {
     /// <summary>
-    /// Provides methods for sorting rows in two-dimentional jagged array of integers.</summary>
+    /// Provides methods for sorting rows in two-dimensional jagged array of integers.</summary>
     /// <remarks>
-    /// Sorting creteria: 
+    /// Sorting criteria: 
     /// Sum of elements in the rows, Maximal or Minimal elements of the rows.</remarks>
     public class JaggedArray
     {
         public delegate bool ToCompare(int[] lhs, int[] rhs);
 
-        /// <summary>Sorts jagged integer array using mehtod for particular creterion in particular order.</summary>
+        /// <summary>Sorts jagged integer array using method for particular criterion in particular order.</summary>
         /// <param name="array"> An array to be sorted.</param>
         /// <param name="comparer"> Method setting the logic of particular kind of sorting.</param>
         public static void Sort(int[][] array, ToCompare comparer)
@@ -33,7 +33,7 @@ namespace ArrayLibrary
             }
         }
 
-        /// <summary>Sorts jagged integer array using mehtod for particular creterion in particular order.</summary>
+        /// <summary>Sorts jagged integer array using method for particular criterion in particular order.</summary>
         /// <param name="array"> An array to be sorted.</param>
         /// <param name="comparer"> Interface setting the logic of particular kind of sorting.</param>
         public static void Sort(int[][] array, IComparer<int[], int[]> comparer)

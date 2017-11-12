@@ -8,7 +8,7 @@ namespace MathLibrary
 {
     /// <summary>
     /// Immutable class.
-    /// Provides methods for standart operations with polynomials.</summary>
+    /// Provides methods for standard operations with polynomials.</summary>
     /// <remarks>
     /// Polynomial can be calculated in a particular point.</remarks>
     public class Polynomial
@@ -21,13 +21,14 @@ namespace MathLibrary
             degree = 0;
             coefficients = new double[1] { 1 };
         }
+
         public Polynomial(int degree, double[] coefficients)
         {
             if (coefficients.Length != degree + 1 || degree < 0 || coefficients == null)
             {
                 throw new ArgumentException();
-                //this.degree = 0;
-                //this.coefficients = new double[1] { 1 };
+                ////this.degree = 0;
+                ////this.coefficients = new double[1] { 1 };
             }
             else
             {
@@ -35,27 +36,29 @@ namespace MathLibrary
                 this.coefficients = coefficients;
             }
         }
-        int Degree
+
+        public int Degree
         {
             get
             {
                 return degree;
             }
-            //set
-            //{
-            //    degree = value;
-            //}
+            ////set
+            ////{
+            ////    degree = value;
+            ////}
         }
-        double[] Coefficients
+
+        public double[] Coefficients
         {
             get
             {
                 return coefficients;
             }
-            //set
-            //{
-            //    coefficients = value;
-            //}
+            ////set
+            ////{
+            ////    coefficients = value;
+            ////}
         }
 
         /// <summary>Computes sum of two polynomials.</summary>
@@ -64,20 +67,20 @@ namespace MathLibrary
         /// <returns>New polynomial made of p1 and p2 sum</returns>
         public static Polynomial operator +(Polynomial p1, Polynomial p2)
         {
-            //if (p1 == null || p2 == null)
-            //{
-            //    throw new ArgumentNullException();
-            //}
+            ////if (p1 == null || p2 == null)
+            ////{
+            ////    throw new ArgumentNullException();
+            ////}
 
-            //if (p1.degree < 0 || p2.degree < 0)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.degree < 0 || p2.degree < 0)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
-            //if (p1.coefficients == null || p2.coefficients == null)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.coefficients == null || p2.coefficients == null)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
             int degree = Math.Max(p1.degree, p2.degree);
             int minDegree = Math.Min(p1.degree, p2.degree);
@@ -114,9 +117,13 @@ namespace MathLibrary
 
             Polynomial result;
             if (reserveCoefficients != null)
+            {
                 result = new Polynomial(degree, reserveCoefficients);
+            }
             else
+            {
                 result = new Polynomial(degree, coefficients);
+            }
 
             return result;
         }
@@ -127,20 +134,20 @@ namespace MathLibrary
         /// <returns>New polynomial made of p1 and p2 difference</returns>
         public static Polynomial operator -(Polynomial p1, Polynomial p2)
         {
-            //if (p1 == null || p2 == null)
-            //{
-            //    throw new ArgumentNullException();
-            //}
+            ////if (p1 == null || p2 == null)
+            ////{
+            ////    throw new ArgumentNullException();
+            ////}
 
-            //if (p1.degree < 0 || p2.degree < 0)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.degree < 0 || p2.degree < 0)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
-            //if (p1.coefficients == null || p2.coefficients == null)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.coefficients == null || p2.coefficients == null)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
             int degree = Math.Max(p1.degree, p2.degree);
             int minDegree = Math.Min(p1.degree, p2.degree);
@@ -177,25 +184,28 @@ namespace MathLibrary
 
             Polynomial result;
             if (reserveCoefficients != null)
+            {
                 result = new Polynomial(degree, reserveCoefficients);
+            }
             else
+            {
                 result = new Polynomial(degree, coefficients);
+            }
 
             return result;
         }
 
-
         public static Polynomial operator *(Polynomial p1, double number)
         {
-            //if (p1 == null)
-            //{
-            //    throw new ArgumentNullException();
-            //}
+            ////if (p1 == null)
+            ////{
+            ////    throw new ArgumentNullException();
+            ////}
 
-            //if (p1.degree < 0 || p1.coefficients == null)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.degree < 0 || p1.coefficients == null)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
             Polynomial p;
 
@@ -206,7 +216,6 @@ namespace MathLibrary
             else
             {
                 p = new Polynomial(p1.degree, new double[p1.degree + 1]);
-
                 for (int i = 0; i <= p1.degree; i++)
                 {
                     p.coefficients[i] = p1.Coefficients[i] * number;
@@ -222,20 +231,20 @@ namespace MathLibrary
         /// <returns>New polynomial made of p1 and p2 product</returns>
         public static Polynomial operator *(Polynomial p1, Polynomial p2)
         {
-            //if (p1 == null || p2 == null)
-            //{
-            //    throw new ArgumentNullException();
-            //}
+            ////if (p1 == null || p2 == null)
+            ////{
+            ////    throw new ArgumentNullException();
+            ////}
 
-            //if (p1.degree < 0 || p2.degree < 0)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.degree < 0 || p2.degree < 0)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
-            //if (p1.coefficients == null || p2.coefficients == null)
-            //{
-            //    throw new ArgumentException();
-            //}
+            ////if (p1.coefficients == null || p2.coefficients == null)
+            ////{
+            ////    throw new ArgumentException();
+            ////}
 
             int degree = p1.degree + p2.degree;
             Polynomial p;
@@ -244,6 +253,7 @@ namespace MathLibrary
             {
                 coef[i] = 0;
             }
+
             for (int i = 0; i <= p1.Degree; i++)
             {
                 for (int j = 0; j <= p2.Degree; j++)
@@ -253,7 +263,6 @@ namespace MathLibrary
             }
 
             p = new Polynomial(degree, coef);
-
             return p;
         }
 
@@ -263,7 +272,8 @@ namespace MathLibrary
         /// <returns>Returns result due to equality between two instances</returns>
         public static bool operator ==(Polynomial p1, Polynomial p2)
         {
-            if (p1 == null || p2 == null)// check if this is neccessary due to nullRefException, will the call occure or fall
+            //// check if this is neccessary due to nullRefException, will the call occure or fall
+            if (p1 == null || p2 == null)
             {
                 throw new ArgumentNullException();
             }
@@ -282,7 +292,9 @@ namespace MathLibrary
                 for (int i = 0; i <= p1.Degree; i++)
                 {
                     if (p1.Coefficients[i] != p2.Coefficients[i])
+                    {
                         return false;
+                    }
                 }
             }
 
@@ -295,8 +307,8 @@ namespace MathLibrary
         /// <returns>Returns result due to equality between two instances</returns>
         public static bool operator !=(Polynomial p1, Polynomial p2)
         {
+            //// is this neccessary due to nullRefException, will the call occure or fall?
             if (p1 == null || p2 == null)
-                // is this neccessary due to nullRefException, will the call occure or fall?
             {
                 throw new ArgumentNullException();
             }
@@ -315,25 +327,13 @@ namespace MathLibrary
                 for (int i = 0; i <= p1.Degree; i++)
                 {
                     if (p1.Coefficients[i] != p2.Coefficients[i])
+                    {
                         return true;
+                    }
                 }
             }
 
             return false;
-        }
-
-        /// <summary>Calculates the polynomial in a particular point.</summary>
-        /// <param name="point"> Real number value polynomial is calculated at.</param>
-        /// <returns>Returns value of current instance at point </returns>
-        public double ComputeAtPoint (double point)
-        {
-            // checking ??? null / degree with "-" ....
-            double result = 0.0;
-            for (int i = 0; i <= Degree; i++)
-            {
-                result += Coefficients[i] * Math.Pow(point, i);
-            }
-            return result;
         }
 
         /// <summary>Verifies if two objects of polynomial type are equal.</summary>
@@ -346,8 +346,25 @@ namespace MathLibrary
             {
                 throw new ArgumentNullException();
             }
+
             return q == p;
         }
+
+        /// <summary>Calculates the polynomial in a particular point.</summary>
+        /// <param name="point"> Real number value polynomial is calculated at.</param>
+        /// <returns>Returns value of current instance at point </returns>
+        public double ComputeAtPoint(double point)
+        {
+            //// checking ??? null / degree with "-" ....
+            double result = 0.0;
+            for (int i = 0; i <= Degree; i++)
+            {
+                result += Coefficients[i] * Math.Pow(point, i);
+            }
+
+            return result;
+        }
+
         /// <summary>Verifies if object and current Polynomial variable are equal.</summary>
         /// <param name="other"> Object current Polynomial variable is compared to.</param>
         /// <returns>Returns result due to equality between current instance and given object</returns>
@@ -356,8 +373,9 @@ namespace MathLibrary
             if (other == null)
             {
                 throw new ArgumentNullException();
-                // return false;
+                //// return false;
             }
+
             if (other.GetType() == this.GetType())
             {
                 Polynomial polynomial = (Polynomial)other;
@@ -365,6 +383,7 @@ namespace MathLibrary
                 {
                     return true;
                 }
+
                 return false;
             }
             else
@@ -372,13 +391,12 @@ namespace MathLibrary
                 return false;
             }
         }
+
         /// <summary>Computes hash value for current object of Polynomial type.</summary>
         /// <returns>Returns value of hash code of an instance.</returns>
         public override int GetHashCode()
         {
-            //???
             return Coefficients.GetHashCode() + Degree;
-        }
-        
+        }   
     }
 }

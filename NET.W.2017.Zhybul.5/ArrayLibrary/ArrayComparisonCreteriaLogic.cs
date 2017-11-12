@@ -25,7 +25,7 @@ namespace ArrayLibrary
 
         /// <summary>Searches for the maximal element in array.</summary>
         /// <param name="array"> Original one-dimensional array, representing one of the jagged array rows.</param>
-        /// <returns>Returns value of the maxmimal element of the row. </returns>
+        /// <returns>Returns value of the maximal element of the row. </returns>
         internal static int MaxElementByLine(int[] array)
         {
             int max = array[0];
@@ -43,7 +43,7 @@ namespace ArrayLibrary
 
         /// <summary>Searches for the minimal element in array.</summary>
         /// <param name="array"> Original one-dimensional array, representing one of the jagged array rows.</param>
-        /// <returns>Returns value of the minmimal element of the row. </returns>
+        /// <returns>Returns value of the minimal element of the row. </returns>
         internal static int MinElementByLine(int[] array)
         {
             int min = array[0];

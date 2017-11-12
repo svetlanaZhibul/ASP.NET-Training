@@ -14,9 +14,9 @@ namespace MathLibrary.NUnit
         [Test]
         public void Sum()
         {
-            Polynomial polynom1 = new Polynomial(2, new double[]{ 2.0, 0.0, 11.0});
+            Polynomial polynom1 = new Polynomial(2, new double[] { 2.0, 0.0, 11.0 });
             Polynomial polynom2 = new Polynomial(4, new double[] { 1d, 5.2, 0d, 4.3, 55d });
-            Polynomial expected = new Polynomial(4, new double[] { 1d, 5.2, 2d, 4.3, 66d});
+            Polynomial expected = new Polynomial(4, new double[] { 1d, 5.2, 2d, 4.3, 66d });
             Polynomial assert = polynom1 + polynom2;
             Assert.AreEqual(assert, expected);
         }
@@ -61,12 +61,12 @@ namespace MathLibrary.NUnit
             Assert.AreEqual(assert, expected);
         }
 
-        //[TestCase(new Polynomial(2, new double[] { 2, 0, 11 }),
-        //          new Polynomial(4, new double[] { 1, 5.2, 0, 4.3, 55 }),
-        //          ExpectedResult = new Polynomial(4, new double[] { 1, 5.2, 2, 4.3, 66 }))]
-        //public Polynomial TestMethod(Polynomial p1, Polynomial p2)
-        //{
-        //    return p1 + p2;
-        //}
+        ////[TestCase(new Polynomial(2, new double[] { 2, 0, 11 }),
+        ////          new Polynomial(4, new double[] { 1, 5.2, 0, 4.3, 55 }),
+        ////          ExpectedResult = new Polynomial(4, new double[] { 1, 5.2, 2, 4.3, 66 }))]
+        ////public Polynomial TestMethod(Polynomial p1, Polynomial p2)
+        ////{
+        ////    return p1 + p2;
+        ////}
     }
 }
