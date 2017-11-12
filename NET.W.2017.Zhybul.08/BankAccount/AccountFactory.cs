@@ -36,6 +36,7 @@ namespace BankAccount
 
             return account;
         }
+
         public void CloseAccount(Account account)
         {
             account = null;

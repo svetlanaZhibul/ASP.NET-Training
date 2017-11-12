@@ -8,23 +8,23 @@ using BankAccount;
 
 namespace BankAccountRunner
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             AccountStorage storage = new AccountStorage();
             
-            AccountFactory aFactory = new AccountFactory();
+            AccountFactory accountFactory = new AccountFactory();
             List<Account> accounts = new List<Account>();
 
             for (int i = 0; i < 2; i++)
             {
                 Console.WriteLine("Enter type of account to create one. Choose from base, gold and premium types.");
-                string aType = Console.ReadLine();
+                string accountType = Console.ReadLine();
                 try
                 {
-                    Account account = aFactory.OpenAccount(aType);
-                    account.ReplenishAccount(22 * i + 1);
+                    Account account = accountFactory.OpenAccount(accountType);
+                    account.ReplenishAccount((22 * i) + 1);
                     account.Number = 1000000 + i;
                     account.Firstname = "Ivanov" + i;
                     account.Lastname = "Alex" + i;
@@ -34,7 +34,7 @@ namespace BankAccountRunner
                 catch (Exception)
                 {
                     Console.WriteLine("Invalid account type entered.");
-                    //throw;
+                    ////throw;
                 } 
             }
 
@@ -55,7 +55,6 @@ namespace BankAccountRunner
             }
 
             Console.ReadKey();
-
         }
     }
 }

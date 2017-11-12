@@ -9,9 +9,9 @@ using static BookShelf.BookSearchEngine;
 
 namespace BookShelfRunner
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Books list initialisation
             Book book1 = new Book("0140448101", new Author("Alexander", "Pushkin"), "Eugene Onegin", "Penguin Classics", 2008, 55, 14.00);
@@ -56,7 +56,6 @@ namespace BookShelfRunner
             Console.WriteLine("\nList of books after one was deleted.");
             boxOfBooks.PrintList();
 
-
             // Search for books by creteria
             Console.WriteLine("Choose a creterion of search from listed below:");
             Console.WriteLine("release year (just type \"year\"), number of pages (just type \"pages\"), price");
@@ -70,7 +69,6 @@ namespace BookShelfRunner
                 ISearchEngine tagComparer = helper.ChooseSearchMethod(tag, maxmin);
                 Book book = boxOfBooks.FindBookByTag(tagComparer);
                 Console.WriteLine("\nA book found by tag \"{0} {1}\":\n{2}", maxmin, tag, book);
-
             }
             catch (Exception)
             {

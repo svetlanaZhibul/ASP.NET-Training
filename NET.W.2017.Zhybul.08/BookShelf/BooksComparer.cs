@@ -12,6 +12,7 @@ namespace BookShelf
         {
             int Compare(Book lhs, Book rhs);
         }
+
         public class CompareByISBNAsc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -19,6 +20,7 @@ namespace BookShelf
                 return lhs.ISBN.CompareTo(rhs.ISBN);
             }
         }
+
         public class CompareByISBNDesc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -26,6 +28,7 @@ namespace BookShelf
                 return rhs.ISBN.CompareTo(lhs.ISBN);
             }
         }
+
         public class CompareByAuthorAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -33,6 +36,7 @@ namespace BookShelf
                 return lhs.Author.CompareTo(rhs.Author);
             }
         }
+
         public class CompareByAuthorReverseAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -40,6 +44,7 @@ namespace BookShelf
                 return rhs.Author.CompareTo(lhs.Author);
             }
         }
+
         public class CompareByTitleAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -47,6 +52,7 @@ namespace BookShelf
                 return lhs.Title.CompareTo(rhs.Title);
             }
         }
+
         public class CompareByTitleReverseAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -54,6 +60,7 @@ namespace BookShelf
                 return rhs.Title.CompareTo(lhs.Title);
             }
         }
+
         public class CompareByPublisherAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -61,6 +68,7 @@ namespace BookShelf
                 return lhs.Publisher.CompareTo(rhs.Publisher);
             }
         }
+
         public class CompareByPublisherReverseAlphabetically : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -68,6 +76,7 @@ namespace BookShelf
                 return rhs.Publisher.CompareTo(lhs.Publisher);
             }
         }
+
         public class CompareByReleaseYearDesc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -75,6 +84,7 @@ namespace BookShelf
                 return lhs.PublishingYear - rhs.PublishingYear;
             }
         }
+
         public class CompareByReleaseYearAsc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -82,6 +92,7 @@ namespace BookShelf
                 return rhs.PublishingYear - lhs.PublishingYear;
             }
         }
+
         public class CompareByPagesDesc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -89,6 +100,7 @@ namespace BookShelf
                 return lhs.NumberOfPages - rhs.NumberOfPages;
             }
         }
+
         public class CompareByPagesAsc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -96,6 +108,7 @@ namespace BookShelf
                 return rhs.NumberOfPages - lhs.NumberOfPages;
             }
         }
+
         public class CompareByPriceDesc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -104,13 +117,16 @@ namespace BookShelf
                 {
                     return 0;
                 }
+
                 if (Math.Round(lhs.Price - rhs.Price, 2) < 0)
                 {
                     return -1;
                 }
+
                 return 1;
             }
         }
+
         public class CompareByPriceAsc : IComparer
         {
             public int Compare(Book lhs, Book rhs)
@@ -119,10 +135,12 @@ namespace BookShelf
                 {
                     return 0;
                 }
+
                 if (Math.Round(rhs.Price - lhs.Price, 2) < 0)
                 {
                     return -1;
                 }
+
                 return 1;
             }
         }

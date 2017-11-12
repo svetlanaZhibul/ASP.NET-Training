@@ -12,6 +12,7 @@ namespace BookShelf
         {
             Book Find(List<Book> books);
         }
+
         public class FindBookByMaxPages : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -31,9 +32,11 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }
+
         public class FindBookByMinPages : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -53,9 +56,11 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }
+
         public class FindBookByMaxPrice : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -75,9 +80,11 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }
+
         public class FindBookByMinPrice : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -97,9 +104,11 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }
+
         public class FindBookByLatestYear : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -119,9 +128,11 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }
+
         public class FindBookByEarliestYear : ISearchEngine
         {
             public Book Find(List<Book> books)
@@ -141,6 +152,7 @@ namespace BookShelf
                         index = i;
                     }
                 }
+
                 return books[index];
             }
         }

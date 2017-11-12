@@ -43,6 +43,9 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="BookListService.cs" />
+    <Compile Include="BookListServiceHelper.cs" />
+    <Compile Include="BookListServiceStorage.cs" />
+    <Compile Include="BookFormatService.cs" />
     <Compile Include="BooksComparer.cs" />
     <Compile Include="BookSearchEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

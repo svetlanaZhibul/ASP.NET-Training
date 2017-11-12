@@ -43,6 +43,9 @@
     <Compile Include="Account.cs" />
     <Compile Include="AccountFactory.cs" />
     <Compile Include="AccountStorage.cs" />
+    <Compile Include="BaseAccount.cs" />
+    <Compile Include="GoldAccount.cs" />
+    <Compile Include="PremiumAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

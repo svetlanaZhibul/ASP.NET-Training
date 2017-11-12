@@ -1,9 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static BookShelf.BookFormat;
 
 namespace BookShelf
 {
@@ -19,23 +16,27 @@ namespace BookShelf
             this.firstname = firstname;
             this.lastname = lastname;
         }
+
         public string Firstname
         {
             get
             {
                 return firstname;
             }
+
             set
             {
                 firstname = value;
             }
         }
+
         public string Lastname
         {
             get
             {
                 return lastname;
             }
+
             set
             {
                 lastname = value;
@@ -48,7 +49,9 @@ namespace BookShelf
             {
                 Author author = (Author)obj;
                 if (author.firstname == this.firstname && author.lastname == this.lastname)
+                {
                     return 0;
+                }
                 else
                 {
                     string name = (firstname + lastname).ToLower();
@@ -56,9 +59,11 @@ namespace BookShelf
                     return name.CompareTo(aname);
                 }
             }
+
             return 1;
         }
         // сразу сравнивать с author
+
         public override bool Equals(object obj)
         {
             if (ReferenceEquals(this, obj))
@@ -78,13 +83,15 @@ namespace BookShelf
                     {
                         return true;
                     }
+
                     return false;
                 }
             }
         }
     }
 
-    public class Book 
+    // Icomparable, IEquatable
+    public class Book
     {
         #region Fields
         [Key]
@@ -105,8 +112,8 @@ namespace BookShelf
         #region Constructors
         public Book()
         {
-
         }
+
         public Book(string isbn, Author author, string title, string publisher, int publishingYear, int numberOfPages, double price)
         {
             this.isbn = isbn;
@@ -116,7 +123,7 @@ namespace BookShelf
             this.publishingYear = publishingYear;
             this.numberOfPages = numberOfPages;
             this.price = price;
-        } 
+        }
         #endregion
 
         #region Properties
@@ -126,78 +133,106 @@ namespace BookShelf
             {
                 return author;
             }
+
             set
             {
                 author = value;
             }
         }
+
         public string ISBN
         {
             get
             {
                 return isbn;
             }
+
             internal set
             {
                 isbn = value;
             }
         }
+
         public string Title
         {
             get
             {
                 return title;
             }
+
             internal set
             {
                 title = value;
             }
         }
+
         public string Publisher
         {
             get
             {
                 return publisher;
             }
+
             internal set
             {
                 publisher = value;
             }
         }
+
         public int PublishingYear
         {
             get
             {
                 return publishingYear;
             }
+
             internal set
             {
-                publishingYear = value;
+                if (value <= DateTime.Today.Year)
+                {
+                    publishingYear = value;
+                }
             }
         }
+
         public int NumberOfPages
         {
             get
             {
                 return numberOfPages;
             }
+
             internal set
             {
-                numberOfPages = value;
+                if (value > 10 && value < 10000)
+                {
+                    numberOfPages = value;
+                }
             }
         }
+
         public double Price
         {
             get
             {
                 return price;
             }
+
             internal set
             {
-                price = value;
+                if (value > 0)
+                {
+                    price = value;
+                }
             }
         }
+
         #endregion
+
+        public string ToString(string format)
+        {
+            return BookFormat.PerformFormatting(format, this);
+        }
 
         #region OverridedObjectMethods
         public bool Equals(Book book)
@@ -209,16 +244,21 @@ namespace BookShelf
             else
             {
                 if (this.isbn != book.isbn)
+                {
                     return false;
+                }
                 else
                 {
                     if (!author.Equals(book.author) || title != book.title || publisher != book.publisher
                         || publishingYear != book.publishingYear /*|| price != book.price*/)
+                    {
                         return false;
+                    }
                     else
+                    {
                         return true;
+                    }
                 }
-
             }
             //return false;
         }
@@ -237,10 +277,12 @@ namespace BookShelf
             {
                 return false;
             }
+
             if (obj.GetType() == GetType())
             {
-                return Equals((Book)obj);
+                return this.Equals((Book)obj);
             }
+
             return false;
         }
 
@@ -251,12 +293,8 @@ namespace BookShelf
 
         public override string ToString()
         {
-            string output = String.Format("{0}, {1} pages\nISBN: {2}\nAuthor: {3} {4}\nPublisher: {5}\nPublished: {6}\nPrice: {7}", title, numberOfPages, isbn, author.Firstname, author.Lastname, publisher, publishingYear, price);
-
-            return output;
-        } 
+            return string.Format("{0}, {1} pages\nISBN: {2}\nAuthor: {3} {4}\nPublisher: {5}\nPublished: {6}\nPrice: {7}", title, numberOfPages, isbn, author.Firstname, author.Lastname, publisher, publishingYear, price);
+        }
         #endregion
-
     }
-
 }

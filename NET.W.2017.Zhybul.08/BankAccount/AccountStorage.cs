@@ -9,16 +9,19 @@ namespace BankAccount
 {
     public class AccountStorage
     {
-        public string DefaultStorage { get; set; }
-        public string DefaultStorageDirectory { get; set; }
-        public string Storage { get; private set; }
-
         public AccountStorage()
         {
             DefaultStorage = @"accounts.dat";
             DefaultStorageDirectory = @"AccountStorage";
             Storage = $"{DefaultStorageDirectory}\\{DefaultStorage}";
         }
+        
+        public string DefaultStorage { get; set; }
+
+        public string DefaultStorageDirectory { get; set; }
+
+        public string Storage { get; private set; }
+
         public void WriteToAccountStorage(List<Account> accounts)
         {
             if (!Directory.Exists(DefaultStorageDirectory))
@@ -39,9 +42,11 @@ namespace BankAccount
                     writer.Write(account.Bonus);
                     writer.Write(account.Type);
                 }
+
                 writer.BaseStream.Position = 0;
             }
         }
+
         public List<Account> ReadFromAccountStorage()
         {
             long number;
@@ -81,9 +86,9 @@ namespace BankAccount
 
                         list.Add(temp);
                         //Console.WriteLine(temp);
-
                     }
                 }
+
                 return list;
             }
             else
@@ -98,17 +103,18 @@ namespace BankAccount
             DefaultStorageDirectory = anotherDirectory;
             Storage = $"{DefaultStorageDirectory}//{DefaultStorage}";
         }
+
         public void ChangeStorage(string anotherDirectory, string anotherFile)
         {
             DefaultStorageDirectory = anotherDirectory;
             DefaultStorage = anotherFile;
             Storage = $"{DefaultStorageDirectory}//{DefaultStorage}";
         }
+
         public void ChangeStorageFile(string anotherFile)
         {
             DefaultStorage = anotherFile;
             Storage = $"{DefaultStorageDirectory}//{DefaultStorage}";
         }
-
     }
 }
