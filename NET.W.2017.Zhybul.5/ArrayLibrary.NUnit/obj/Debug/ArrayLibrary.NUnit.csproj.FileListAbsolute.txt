@@ -7,3 +7,12 @@ D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\Array
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\nunit.framework.xml
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\obj\Debug\ArrayLibrary.NUnit.dll
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\obj\Debug\ArrayLibrary.NUnit.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\ArrayLibrary.NUnit.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\ArrayLibrary.NUnit.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\ArrayLibrary.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\nunit.framework.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\ArrayLibrary.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\bin\Debug\nunit.framework.xml
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\obj\Debug\ArrayLibrary.NUnit.csprojResolveAssemblyReference.cache
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\obj\Debug\ArrayLibrary.NUnit.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.5\ArrayLibrary.NUnit\obj\Debug\ArrayLibrary.NUnit.pdb

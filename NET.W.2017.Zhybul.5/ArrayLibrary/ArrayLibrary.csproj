@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayComparisonCreteriaLogic.cs" />
+    <Compile Include="ArraySortLogic.cs" />
     <Compile Include="JaggedArray.cs" />
+    <Compile Include="JaggedArrayThroughDelegate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
