@@ -15,9 +15,24 @@ namespace ArrayLibrary
     {
         public delegate bool ToCompare(int[] lhs, int[] rhs);
 
+        private class DelegateToIComparerAdapter : IComparer<int[], int[]>
+        {
+            ToCompare comparer;
+            public DelegateToIComparerAdapter(ToCompare c)
+            {
+                comparer = c;
+            }
+
+            public bool CompareTo(int[] lhs, int[] rhs)
+            {
+                return comparer(lhs, rhs);
+            }
+        }
+
         /// <summary>Sorts jagged integer array using method for particular criterion in particular order.</summary>
         /// <param name="array"> An array to be sorted.</param>
         /// <param name="comparer"> Method setting the logic of particular kind of sorting.</param>
+        /// 
         public static void Sort(int[][] array, ToCompare comparer)
         {
             if (comparer == null)
@@ -26,10 +41,8 @@ namespace ArrayLibrary
             }
             else
             {
-                IComparer<int[], int[]> comparator;
-                comparator = (IComparer<int[], int[]>)comparer.Target;
-                //// validation
-                Sort(array, comparator);
+                DelegateToIComparerAdapter adapter = new DelegateToIComparerAdapter(comparer);
+                Sort(array, adapter);
             }
         }
 
