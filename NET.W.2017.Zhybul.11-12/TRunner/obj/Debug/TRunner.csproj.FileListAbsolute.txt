@@ -1,0 +1,8 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\bin\Debug\TRunner.exe.config
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\bin\Debug\TRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\bin\Debug\TRunner.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\bin\Debug\TimerLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\bin\Debug\TimerLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\obj\Debug\TRunner.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\obj\Debug\TRunner.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\TRunner\obj\Debug\TRunner.pdb
