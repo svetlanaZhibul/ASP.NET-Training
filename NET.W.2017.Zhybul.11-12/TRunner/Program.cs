@@ -13,10 +13,20 @@ namespace TRunner
         {
             TimeChecker tc = new TimeChecker();
 
-            int timeSec = 5000;
-            TestTimeChecker tester = new TestTimeChecker(tc);
+            // User enters time in seconds
+            int time1 = 10;
+            int time2 = 20;
 
-            tc.TickSender(timeSec);
+            TestTimeChecker tester = new TestTimeChecker();
+            tester.StartCounting(tc);
+            TimerSimulator simulator = new TimerSimulator();
+            simulator.StartCounting(tc);
+
+            tc.TickSender(time1);
+
+            tester.StopCounting(tc);
+
+            tc.TickSender(time2);
 
             Console.ReadKey();
         }

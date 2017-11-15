@@ -2,3 +2,8 @@ D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\ArraySortLibrary\bin\Debug\Arr
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\ArraySortLibrary\bin\Debug\ArraySortLibrary.pdb
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\ArraySortLibrary\obj\Debug\ArraySortLibrary.dll
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.11-12\ArraySortLibrary\obj\Debug\ArraySortLibrary.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\ArraySortLibrary\bin\Debug\ArraySortLibrary.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\ArraySortLibrary\bin\Debug\ArraySortLibrary.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\ArraySortLibrary\obj\Debug\ArraySortLibrary.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\ArraySortLibrary\obj\Debug\ArraySortLibrary.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\ArraySortLibrary\obj\Debug\ArraySortLibrary.csprojResolveAssemblyReference.cache

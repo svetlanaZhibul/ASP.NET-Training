@@ -46,7 +46,11 @@ namespace TimerLibrary
 
     public class TestTimeChecker
     {
-        public TestTimeChecker(TimeChecker timer)
+        public TestTimeChecker()
+        {
+        }
+
+        public void StartCounting(TimeChecker timer)
         {
             timer.StartTimer += Countdown;
         }
@@ -54,28 +58,60 @@ namespace TimerLibrary
         public void Countdown(object sender, TimerEvenArgs eventArgs)
         {
             Console.WriteLine($"Test time: {eventArgs.Time}.");
-            //int currTime = eventArgs.Time;
+            int currTime = eventArgs.Time;
+            int period = 1000;
+            while (currTime > 1)
+            {
+                Thread.Sleep(period);
+                Console.WriteLine($"{--currTime} seconds left");
+            }
             //TimerCallback tm = new TimerCallback(Count);
             //Timer timer = new Timer(Count, eventArgs.Time, 0, 5000);
-            //i = 45;
-            //this.Text = i.ToString();
-            //timer1.Interval = 1000;
-            //timer1.Enabled = true;
-            //timer1.Start();
+            //this.timer = new Timer(Count, time-1000, 0, 1000);
         }
 
-        //public static void Count(object obj)
+        //public void Count(object obj)
         //{
         //    int x = (int)obj;
-        //    if (x < 0)
+        //    if (x <= 1000)
         //    {
-
+        //        timer.Dispose();
         //    }
-        //    for ()
+        //    else
         //    {
-        //        Console.WriteLine("{0} seconds left", (x - 5000) / 1000);
+        //        Console.WriteLine("{0} seconds left", (x - 1000) /*/ 1000*/);
+        //        time = time - 1000;
         //    }
         //}
+
+        public void StopCounting(TimeChecker timer)
+        {
+            timer.StartTimer -= Countdown;
+        }
+    }
+
+    public class TimerSimulator
+    {
+        public TimerSimulator()
+        {
+        }
+
+        public void StartCounting(TimeChecker timer)
+        {
+            timer.StartTimer += Countdown;
+        }
+
+        public void Countdown(object sender, TimerEvenArgs eventArgs)
+        {
+            Console.WriteLine($"Test time: {eventArgs.Time}.");
+            int currTime = eventArgs.Time;
+            int period = 1000;
+            while (currTime > 1)
+            {
+                Thread.Sleep(period);
+                Console.WriteLine($"{--currTime} seconds to simulate");
+            }
+        }
 
         public void StopCounting(TimeChecker timer)
         {
