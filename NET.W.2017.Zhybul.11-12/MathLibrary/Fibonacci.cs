@@ -46,7 +46,7 @@ namespace MathLibrary
         {
             if (length <= 0)
             {
-                //throw new ArgumentOutOfRangeException(nameof(length));
+                ////throw new ArgumentOutOfRangeException(nameof(length));
                 yield break;
             }
 

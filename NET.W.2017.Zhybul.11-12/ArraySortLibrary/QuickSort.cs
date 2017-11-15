@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArraySortLibrary
 {
-    static class QuickSort
+    internal static class QuickSort
     {
         internal static void ToSort<T>(this T[] arr, int left, int right, Comparator.IComparable<T> comparer)
         {
@@ -14,17 +14,17 @@ namespace ArraySortLibrary
             if (left < index - 1)
             {
                 ToSort(arr, left, index - 1, comparer);
-                //arr.ToSort(left, index - 1);
+                ////arr.ToSort(left, index - 1);
             }
 
             if (index < right)
             {
                 ToSort(arr, index, right, comparer);
-                //arr.ToSort(index, right);
+                ////arr.ToSort(index, right);
             }
         }
 
-        static int Partition<T>(T[] arr, int left, int right, Comparator.IComparable<T> comparer)
+        private static int Partition<T>(T[] arr, int left, int right, Comparator.IComparable<T> comparer)
         {
             int i = left, j = right;
             T tmp;
@@ -32,12 +32,12 @@ namespace ArraySortLibrary
 
             while (i <= j)
             {
-                while (comparer.Compare(arr[i], pivot) == -1/*arr[i] < pivot*/)
+                while (comparer.Compare(arr[i], pivot) == -1)
                 {
                     i++;
                 }
 
-                while (comparer.Compare(arr[j], pivot) == 1/*arr[j] > pivot*/)
+                while (comparer.Compare(arr[j], pivot) == 1)
                 {
                     j--;
                 }
@@ -50,7 +50,7 @@ namespace ArraySortLibrary
                     i++;
                     j--;
                 }
-            };
+            }
 
             return i;
         }
