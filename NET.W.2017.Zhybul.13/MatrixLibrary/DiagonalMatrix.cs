@@ -47,8 +47,7 @@ namespace MatrixLibrary
             IComparer<T> comparer;
             if (typeof(T).GetInterface("IComparable") != null)
             {
-                ////comparer = Comparer<T>.Default;
-                comparer = null;
+                comparer = Comparer<T>.Default;
             }
             else
             {
