@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\MatrixLibrary\bin\Debug\MatrixLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\MatrixLibrary\bin\Debug\MatrixLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\MatrixLibrary\obj\Debug\MatrixLibrary.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\MatrixLibrary\obj\Debug\MatrixLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\MatrixLibrary\obj\Debug\MatrixLibrary.pdb

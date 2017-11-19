@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\CollectionsLibrary\bin\Debug\CollectionsLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\CollectionsLibrary\bin\Debug\CollectionsLibrary.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\CollectionsLibrary\obj\Debug\CollectionsLibrary.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\CollectionsLibrary\obj\Debug\CollectionsLibrary.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\CollectionsLibrary\obj\Debug\CollectionsLibrary.pdb
