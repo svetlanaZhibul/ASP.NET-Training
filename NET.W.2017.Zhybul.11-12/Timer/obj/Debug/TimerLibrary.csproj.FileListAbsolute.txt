@@ -6,3 +6,4 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\Timer\bin\Debug
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\Timer\bin\Debug\TimerLibrary.pdb
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\Timer\obj\Debug\TimerLibrary.dll
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\Timer\obj\Debug\TimerLibrary.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.11-12\Timer\obj\Debug\TimerLibrary.csprojResolveAssemblyReference.cache

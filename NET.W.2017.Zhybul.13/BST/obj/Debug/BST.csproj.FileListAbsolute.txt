@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\BST\bin\Debug\BST.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\BST\bin\Debug\BST.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\BST\obj\Debug\BST.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\BST\obj\Debug\BST.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.13\BST\obj\Debug\BST.pdb

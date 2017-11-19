@@ -9,7 +9,7 @@ namespace ArraySortLibrary
 {
     public class BinarySearch
     {
-        public static void DoSearch<T>(T[] array, int left, int right, T x, Comparator.IComparable<T> comparer = null)
+        public static int DoSearch<T>(T[] array, int left, int right, T x, Comparator.IComparable<T> comparer = null)
         {
             // #############################
 
@@ -18,7 +18,7 @@ namespace ArraySortLibrary
             ////Type arrayType = A.GetType();
             ////arrayType.GetInterface("IComparer");
             array.ToSort(0, array.Length - 1, comparer);
-            Search(array, left, right, x, comparer);
+            return Search(array, left, right, x, comparer);
         }
 
         public static int Search<T>(T[] array, int left, int right, T x, Comparator.IComparable<T> comparer)

@@ -50,27 +50,13 @@ namespace MathLibrary
                 yield break;
             }
 
-            int fibFirst = 1;
-            int fibSecond = 1;
+            yield return fibPrev;
 
-            if (length == 1)
+            for (int i = 1; i < length; i++)
             {
-                yield return fibFirst;
-            }
-            else
-            {
-                yield return fibFirst;
-                yield return fibSecond;
-
-                if (length > 2)
-                {
-                    for (int i = 2; i < length; i++)
-                    {
-                        fibSecond = fibSecond + fibFirst;
-                        fibFirst = fibSecond - fibFirst;
-                        yield return fibSecond;
-                    }
-                }
+                yield return fibNext;
+                fibNext = fibNext + fibPrev;
+                fibPrev = fibNext - fibPrev;
             }
         }
     }
