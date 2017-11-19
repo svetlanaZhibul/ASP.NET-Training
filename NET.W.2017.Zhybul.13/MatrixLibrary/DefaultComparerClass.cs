@@ -1,15 +1,15 @@
 ﻿using System;
-using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MatrixLibrary
 {
-    public interface IComparer<in T>
-    {
-        int Compare(T lhs, T rhs);
-    }
+    ////public interface IComparer<in T>
+    ////{
+    ////    int Compare(T lhs, T rhs);
+    ////}
 
     public class DefaultComparerClass<T> : IComparer<T>
         where T : struct
