@@ -1,0 +1,9 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\DAL.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\DAL.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\BLL.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\DAL.Interface.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\BLL.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\bin\Debug\DAL.Interface.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\obj\Debug\DAL.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL\obj\Debug\DAL.pdb

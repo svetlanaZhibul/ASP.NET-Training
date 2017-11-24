@@ -1,0 +1,6 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\bin\Debug\ConsoleUI.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\bin\Debug\ConsoleUI.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\obj\Debug\ConsoleUI.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\obj\Debug\ConsoleUI.exe
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\ConsoleUI\obj\Debug\ConsoleUI.pdb

@@ -1,0 +1,5 @@
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL.Interface\bin\Debug\BLL.Interface.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL.Interface\bin\Debug\BLL.Interface.pdb
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL.Interface\obj\Debug\BLL.Interface.csprojResolveAssemblyReference.cache
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL.Interface\obj\Debug\BLL.Interface.dll
+D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL.Interface\obj\Debug\BLL.Interface.pdb
