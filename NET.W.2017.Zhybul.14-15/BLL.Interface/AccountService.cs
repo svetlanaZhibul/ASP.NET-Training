@@ -28,5 +28,10 @@ namespace BLL.Interface
         {
             throw new NotImplementedException();
         }
+
+        private void Generate(IAccountInterface generator)
+        {
+
+        }
     }
 }

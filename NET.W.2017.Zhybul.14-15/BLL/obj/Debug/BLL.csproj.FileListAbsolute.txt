@@ -3,3 +3,8 @@ D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL\bin\Debug\BLL.pdb
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.dll
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\BLL\bin\Debug\BLL.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\BLL\bin\Debug\BLL.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\BLL\obj\Debug\BLL.pdb

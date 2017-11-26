@@ -5,3 +5,10 @@ D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL.Interface\bin\Debug\BLL.pd
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.dll
 D:\C#Projects\epam-course\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\bin\Debug\DAL.Interface.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\bin\Debug\DAL.Interface.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\bin\Debug\BLL.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\bin\Debug\BLL.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.csprojResolveAssemblyReference.cache
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.14-15\DAL.Interface\obj\Debug\DAL.Interface.pdb

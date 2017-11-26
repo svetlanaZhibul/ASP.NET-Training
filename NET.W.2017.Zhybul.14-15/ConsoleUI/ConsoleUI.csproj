@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL.Interface\BLL.Interface.csproj">
+      <Project>{0464cafa-cd4d-4794-89b3-2f5dec602d1e}</Project>
+      <Name>BLL.Interface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{cbe85afc-d610-4f1a-9ffc-082a114916f9}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
