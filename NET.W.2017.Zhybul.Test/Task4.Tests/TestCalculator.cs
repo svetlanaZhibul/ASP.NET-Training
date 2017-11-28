@@ -33,5 +33,28 @@ namespace Task4.Tests
 
             Assert.AreEqual(expected, actual, 0.000001);
         }
+
+        public void Test_AverageByMean_Delegate()
+        {
+            AverageDelegateComputer calculator = new AverageDelegateComputer();
+
+            double expected = 8.3636363;
+
+            double actual = calculator.CalculateAverage(values, new AverageByMean());
+
+            Assert.AreEqual(expected, actual, 0.000001);
+        }
+
+        [Test]
+        public void Test_AverageByMedian_Delegate()
+        {
+            AverageDelegateComputer calculator = new AverageDelegateComputer();
+
+            double expected = 8.0;
+
+            double actual = calculator.CalculateAverage(values, new AverageByMedian().Calculate);
+
+            Assert.AreEqual(expected, actual, 0.000001);
+        }
     }
 }
