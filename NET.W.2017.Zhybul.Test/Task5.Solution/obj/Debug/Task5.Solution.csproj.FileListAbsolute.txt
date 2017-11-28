@@ -8,3 +8,7 @@ C:\Users\MIB\Desktop\23.11.2017\Task5.Solution\bin\Debug\Task5.Solution.pdb
 C:\Users\MIB\Desktop\23.11.2017\Task5.Solution\obj\Debug\Task5.Solution.csproj.CoreCompileInputs.cache
 C:\Users\MIB\Desktop\23.11.2017\Task5.Solution\obj\Debug\Task5.Solution.dll
 C:\Users\MIB\Desktop\23.11.2017\Task5.Solution\obj\Debug\Task5.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\bin\Debug\Task5.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\bin\Debug\Task5.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\obj\Debug\Task5.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\obj\Debug\Task5.Solution.pdb

@@ -1,3 +1,17 @@
 C:\Users\MIB\Desktop\23.11.2017\Task2.Tests\obj\Debug\Task2.Console.csprojResolveAssemblyReference.cache
 C:\Users\MIB\Desktop\23.11.2017\Task2.Tests\obj\Debug\Task2.Console.csproj.CoreCompileInputs.cache
 C:\Users\MIB\Desktop\23.11.2017\Task2.Tests\obj\Debug\Task2.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\obj\Debug\Task2.Console.csprojResolveAssemblyReference.cache
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\obj\Debug\Task2.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Task2.Tests.exe
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Task2.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Castle.Core.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Moq.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\nunit.framework.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Task2.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Task2.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Castle.Core.xml
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Moq.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\Moq.xml
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\bin\Debug\nunit.framework.xml
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task2.Tests\obj\Debug\Task2.Tests.exe

@@ -8,3 +8,12 @@ C:\Users\MIB\Desktop\23.11.2017\Task6.Tests\obj\Debug\Task6.Tests.dll
 C:\Users\MIB\Desktop\23.11.2017\Task6.Tests\obj\Debug\Task6.Tests.pdb
 C:\Users\MIB\Desktop\23.11.2017\Task6.Tests\bin\Debug\Test6.Solution.dll
 C:\Users\MIB\Desktop\23.11.2017\Task6.Tests\bin\Debug\Test6.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\obj\Debug\Task6.Tests.csprojResolveAssemblyReference.cache
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\obj\Debug\Task6.Tests.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\obj\Debug\Task6.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\Task6.Tests.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\Task6.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\nunit.framework.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\Test6.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\Test6.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task6.Tests\bin\Debug\nunit.framework.xml

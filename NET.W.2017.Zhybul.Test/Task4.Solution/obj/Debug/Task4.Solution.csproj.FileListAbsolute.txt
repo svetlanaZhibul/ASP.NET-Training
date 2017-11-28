@@ -10,3 +10,7 @@ C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.csprojRe
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.csproj.CoreCompileInputs.cache
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.dll
 C:\Users\MIB\Desktop\23.11.2017\Task4.Solution\obj\Debug\Task4.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Solution\bin\Debug\Task4.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Solution\bin\Debug\Task4.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Solution\obj\Debug\Task4.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Solution\obj\Debug\Task4.Solution.pdb
