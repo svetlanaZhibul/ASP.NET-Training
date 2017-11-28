@@ -56,10 +56,10 @@ namespace Task6.Tests
             SequenceGenerator<double> generator = new SequenceGenerator<double>(1, 1, 1, 2);
             int[] actual = new int[length];
             int i = 0;
-            foreach (int member in generator.GetNonStaticCoefSequence<double>(length, new CoeffincientGenerator<double>().Generate))
-            {
-                actual[i++] = member;
-            }
+            //foreach (int member in generator.GetNonStaticCoefSequence<double>(length, new CoeffincientGenerator<double>().Generate))
+            //{
+            //    actual[i++] = member;
+            //}
 
             double[] expected = { 1, 2, 3, 3.5, 4.16666666666667, 4.69047619047619, 5.29238095238095, 5.81880106357264, 6.39184849183592, 6.91728310858544 };
 

@@ -27,3 +27,5 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\bin\
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\obj\Debug\Task4.Tests.csprojResolveAssemblyReference.cache
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\obj\Debug\Task4.Tests.dll
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\obj\Debug\Task4.Tests.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\bin\Debug\Task4.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task4.Tests\bin\Debug\Task4.Solution.pdb
