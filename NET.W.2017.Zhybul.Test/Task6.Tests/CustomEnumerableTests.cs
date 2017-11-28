@@ -56,7 +56,7 @@ namespace Task6.Tests
             SequenceGenerator<double> generator = new SequenceGenerator<double>(1, 1, 1, 2);
             int[] actual = new int[length];
             int i = 0;
-            foreach (int member in generator.GetNonStaticCoefSequence(length, new CoeffincientGenerator<double>().Generate))
+            foreach (int member in generator.GetNonStaticCoefSequence<double>(length, new CoeffincientGenerator<double>().Generate))
             {
                 actual[i++] = member;
             }
