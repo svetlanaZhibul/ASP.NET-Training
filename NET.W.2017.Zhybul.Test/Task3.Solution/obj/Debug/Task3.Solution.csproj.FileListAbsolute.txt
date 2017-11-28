@@ -7,4 +7,3 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task3.Solution\b
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task3.Solution\bin\Debug\Task3.Solution.pdb
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task3.Solution\obj\Debug\Task3.Solution.dll
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task3.Solution\obj\Debug\Task3.Solution.pdb
-D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task3.Solution\obj\Debug\Task3.Solution.csprojResolveAssemblyReference.cache

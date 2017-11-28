@@ -9,13 +9,19 @@ namespace Test6.Solution
 {
     public class Operator<T>
     {
-        private static readonly Func<T, T, T> multiply = CreateExpression<T, T, T>(new Func<Expression, Expression, BinaryExpression>(Expression.Multiply));
+        private static readonly Func<double, T, T> multiplyD = CreateExpression<double, T, T>(new Func<Expression, Expression, BinaryExpression>(Expression.Multiply));
+        private static readonly Func<int, T, T> multiply = CreateExpression<int, T, T>(new Func<Expression, Expression, BinaryExpression>(Expression.Multiply));
         private static readonly Func<T, T, T> add = CreateExpression<T, T, T>(new Func<Expression, Expression, BinaryExpression>(Expression.Add));
         private static readonly Func<T, T, T> divide = CreateExpression<T, T, T>(new Func<Expression, Expression, BinaryExpression>(Expression.Divide));
 
-        public static Func<T, T, T> Multiply
+        public static Func<int, T, T> Multiply
         {
             get { return Operator<T>.multiply; }
+        }
+
+        public static Func<double, T, T> MultiplyD
+        {
+            get { return Operator<T>.multiplyD; }
         }
 
         public static Func<T, T, T> Add

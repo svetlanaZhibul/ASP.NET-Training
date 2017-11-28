@@ -17,10 +17,9 @@ namespace Task6.Tests
         {
             int length = 10;
 
-            SequenceGenerator<int> generator = new SequenceGenerator<int>(1, 1, 1, 1);
             int[] actual = new int[length];
             int i = 0;
-            foreach (int member in generator.GetStaticCoefSequence(length))
+            foreach (int member in SequenceGenerator<int>.GetSequence(1, 1, length, new CommonMemberGenerator<int>().GenerateForSequence1))
             {
                 actual[i++] = member;
             }
@@ -35,15 +34,14 @@ namespace Task6.Tests
         {
             int length = 10;
 
-            SequenceGenerator<int> generator = new SequenceGenerator<int>(6, -8, 1, 2);
             int[] actual = new int[length];
             int i = 0;
-            foreach (int member in generator.GetStaticCoefSequence(length))
+            foreach (int member in SequenceGenerator<int>.GetSequence(1, 2, length, new CommonMemberGenerator<int>().GenerateForSequence2))
             {
                 actual[i++] = member;
             }
 
-            int[] expected = { 1, 2, -10, 92, -796, 6920, -60136, 522608, -4541680, 39469088 };
+            int[] expected = { 1, 2, 4, 8, 16, 32, 64, 128, 256, 512 };
 
             CollectionAssert.AreEqual(expected, actual);
         }
@@ -53,15 +51,14 @@ namespace Task6.Tests
         {
             int length = 10;
 
-            SequenceGenerator<double> generator = new SequenceGenerator<double>(1, 1, 1, 2);
-            int[] actual = new int[length];
+            double[] actual = new double[length];
             int i = 0;
-            //foreach (int member in generator.GetNonStaticCoefSequence<double>(length, new CoeffincientGenerator<double>().Generate))
-            //{
-            //    actual[i++] = member;
-            //}
+            foreach (double member in SequenceGenerator<double>.GetSequence(1, 2, length, new CommonMemberGenerator<double>().GenerateForSequence3))
+            {
+                actual[i++] = Math.Round(member, 10);
+            }
 
-            double[] expected = { 1, 2, 3, 3.5, 4.16666666666667, 4.69047619047619, 5.29238095238095, 5.81880106357264, 6.39184849183592, 6.91728310858544 };
+            double[] expected = { 1, 2, 2.5, 3.3, 4.0575757576, 4.8708692602, 5.7038983441, 6.5578527743, 7.4276341708, 8.3105334390 };
 
             CollectionAssert.AreEqual(expected, actual);
         }

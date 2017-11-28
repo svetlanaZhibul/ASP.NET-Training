@@ -9,128 +9,52 @@ namespace Test6.Solution
     public class SequenceGenerator<T>
         where T : struct
     {
-        public delegate Tuple<T,T> CreateNonStaticCoefSequence(T lhs, T rhs, T lhs_coef, T rhs_coef);
-
-        private T firstMember;
-        private T secondMember;
-        private T fKoef;
-        private T sKoef;
-
-        public SequenceGenerator() { }
-
-        public SequenceGenerator(T firstMember, T secondMember)
-        {
-            this.firstMember = firstMember;
-            this.secondMember = secondMember;
-        }
-
-        public SequenceGenerator(T fKoef, T sKoef, T first, T second)
-        {
-            this.fKoef = fKoef;
-            this.sKoef = sKoef;
-            firstMember = first;
-            secondMember = second;
-        }
-
-        public T FirstMember
-        {
-            get
-            {
-                return firstMember;
-            }
-            set
-            {
-                firstMember = value;
-            }
-        }
-
-        public T SecondMember
-        {
-            get
-            {
-                return secondMember;
-            }
-            set
-            {
-                secondMember = value;
-            }
-        }
-
-        public T FirstCoef
-        {
-            get
-            {
-                return fKoef;
-            }
-            set
-            {
-                fKoef = value;
-            }
-        }
-
-        public T SecondCoef
-        {
-            get
-            {
-                return sKoef;
-            }
-            set
-            {
-                sKoef = value;
-            }
-        }
-        
-        public IEnumerable<T> GetStaticCoefSequence(int length)
+        public delegate T CreateNonStaticCoefSequence(T lhs, T rhs);
+                
+        public static IEnumerable<T> GetSequence(T first, T second, int length, CreateNonStaticCoefSequence seqCreator)
         {
             if (length <= 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(length));
             }
 
+            if (seqCreator == null)
+            {
+                throw new ArgumentNullException(nameof(seqCreator));
+            }
+
+            return GetSequenceBasis(first, second, length, seqCreator);
+        }
+
+        private static IEnumerable<T> GetSequenceBasis(T first, T second, int length, CreateNonStaticCoefSequence seqCreator)
+        {
             T temp;
 
             for (int i = 0; i < length; i++)
             {
-                yield return FirstMember;
-
-                temp = FirstMember;
-                FirstMember = SecondMember;
-                SecondMember = InitSequence(temp, FirstMember);
+                yield return first;
+                temp = second;
+                second = seqCreator.Invoke(first, second);
+                first = temp;
             }
-        }
-
-        public IEnumerable<T> GetNonStaticSequence(int length, CreateNonStaticCoefSequence coefCreator)
-        {
-            if (length <= 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(length));
-            }
-
-            T temp;
-
-            for (int i = 1; i < length; i++)
-            {
-                yield return FirstMember;
-
-                temp = FirstMember;
-                FirstMember = SecondMember;
-                FirstCoef = coefCreator.Invoke(temp, FirstMember, this.FirstCoef, this.SecondCoef).Item1;
-                SecondCoef = coefCreator.Invoke(temp, FirstMember, this.FirstCoef, this.SecondCoef).Item2;
-                SecondMember = InitSequence(temp, FirstMember);
-            }
-        }
-
-        public T InitSequence(T first, T second)
-        {
-            return Operator<T>.Add(Operator<T>.Multiply(this.fKoef, first), Operator<T>.Multiply(this.sKoef, second));
         }
     }
 
-    public class CoeffincientGenerator<T>
+    public class CommonMemberGenerator<T>
     {
-        public Tuple<T,T> Generate(T lhs, T rhs, T lhs_coef, T rhs_coef)
+        public T GenerateForSequence1(T lhs, T rhs)
         {
-            return new Tuple<T, T>(lhs, Operator<T>.Divide(rhs_coef, lhs));
+            return Operator<T>.Add(rhs, lhs);
+        }
+
+        public T GenerateForSequence2(T lhs, T rhs)
+        {
+            return Operator<T>.Add(Operator<T>.Multiply(6, rhs), Operator<T>.Multiply(-8, lhs));
+        }
+
+        public T GenerateForSequence3(T lhs, T rhs)
+        {
+            return Operator<T>.Add(rhs, Operator<T>.Divide(lhs, rhs));
         }
     }
 }
