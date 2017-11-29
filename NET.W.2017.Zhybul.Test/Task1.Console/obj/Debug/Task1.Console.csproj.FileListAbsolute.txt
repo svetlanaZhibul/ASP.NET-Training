@@ -3,3 +3,6 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\bi
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\bin\Debug\Task1.Console.pdb
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\obj\Debug\Task1.Console.exe
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\obj\Debug\Task1.Console.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\bin\Debug\Task1.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\bin\Debug\Task1.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task1.Console\obj\Debug\Task1.Console.csprojResolveAssemblyReference.cache

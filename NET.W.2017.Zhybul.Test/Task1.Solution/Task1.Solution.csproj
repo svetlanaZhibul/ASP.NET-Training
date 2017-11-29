@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlRepository.cs" />
     <Compile Include="TextFileReporitory.cs" />
+    <Compile Include="ValidationLogicClasses\SpecialisedTextFileRepositoryValidationLogic.cs" />
     <Compile Include="ValidationLogicClasses\SpecialisedValidationLogic.cs" />
   </ItemGroup>
   <ItemGroup />
