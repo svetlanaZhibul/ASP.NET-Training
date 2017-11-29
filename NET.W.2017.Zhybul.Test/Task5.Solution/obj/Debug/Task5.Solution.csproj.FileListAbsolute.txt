@@ -12,3 +12,4 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\b
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\bin\Debug\Task5.Solution.pdb
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\obj\Debug\Task5.Solution.dll
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\obj\Debug\Task5.Solution.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Solution\obj\Debug\Task5.Solution.csprojResolveAssemblyReference.cache

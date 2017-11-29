@@ -2,7 +2,7 @@
 {
     using System.Collections.Generic;
     using System;
-    using Task5;
+    using Task5.Solution;
 
     class Program
     {
@@ -22,6 +22,8 @@
             Console.WriteLine(document.ToPlainText());
 
             Console.WriteLine(document.ToLaTeX());
+
+            Console.ReadKey();
         }
     }
 }

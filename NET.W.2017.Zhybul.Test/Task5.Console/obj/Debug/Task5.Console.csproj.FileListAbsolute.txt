@@ -25,3 +25,5 @@ D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\bi
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\obj\Debug\Task5.Console.csprojResolveAssemblyReference.cache
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\obj\Debug\Task5.Console.exe
 D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\obj\Debug\Task5.Console.pdb
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\bin\Debug\Task5.Solution.dll
+D:\C#Projects\net.repo\NET.W.2017.Zhybul\NET.W.2017.Zhybul.Test\Task5.Console\bin\Debug\Task5.Solution.pdb
