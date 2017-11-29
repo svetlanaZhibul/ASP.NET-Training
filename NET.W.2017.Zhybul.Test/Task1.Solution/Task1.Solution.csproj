@@ -40,18 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileTextPasswordChecker.cs" />
-    <Compile Include="SqlRepoPasswordChecker.cs" />
+    <Compile Include="ValidationLogicClasses\CommonValidatorLogic.cs" />
+    <Compile Include="IValidationChecker.cs" />
+    <Compile Include="SpecialisedValidatorService.cs" />
+    <Compile Include="CommonValidatorService.cs" />
     <Compile Include="ValidationInterfaces\IEmptyChecker.cs" />
+    <Compile Include="ValidationInterfaces\IValidator.cs" />
     <Compile Include="ValidationInterfaces\ILetterPresence.cs" />
     <Compile Include="ValidationInterfaces\INumberPresence.cs" />
     <Compile Include="IUserCreator.cs" />
     <Compile Include="ValidationInterfaces\ILengthChecker.cs" />
     <Compile Include="ValidationInterfaces\INullChecker.cs" />
-    <Compile Include="PasswordCheckerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqlRepository.cs" />
     <Compile Include="TextFileReporitory.cs" />
+    <Compile Include="ValidationLogicClasses\SpecialisedValidationLogic.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
