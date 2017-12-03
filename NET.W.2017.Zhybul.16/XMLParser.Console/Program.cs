@@ -8,9 +8,9 @@ using static XMLParser.FileParser;
 
 namespace XMLParser.Console
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string path = Directory.GetParent(Directory.GetCurrentDirectory()).Parent.FullName + @"\datafiles\input.txt";
 

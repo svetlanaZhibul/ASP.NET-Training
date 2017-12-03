@@ -25,20 +25,8 @@ namespace XMLParser
                 if (!string.IsNullOrEmpty(pair))
                 {
                     this.parameters.Add(pair.Split('=')[0], pair.Split('=')[1]);
-
                 }
             }
-        }
-
-        public override string ToString()
-        {
-            string res = string.Empty;
-            foreach (string u in Uri)
-            {
-                res += u;
-            }
-
-            return res;
         }
 
         internal string Hostname

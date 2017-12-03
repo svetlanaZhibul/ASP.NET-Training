@@ -8,7 +8,7 @@ namespace XMLParser
 {
     public abstract class ObjectFileParser
     {
-        protected string filepath;
+        private string filepath;
 
         protected ObjectFileParser(string filepath)
         {

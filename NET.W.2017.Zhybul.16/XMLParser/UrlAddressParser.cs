@@ -13,12 +13,14 @@ namespace XMLParser
     {
         private List<UrlAddress> urls = new List<UrlAddress>(6);
 
-        public UrlAddressParser(string filepath) : base(filepath) { }
+        public UrlAddressParser(string filepath) : base(filepath)
+        {
+        }
 
         public override void ParseToXml()
         {
-            DeserializeOnFile(this.Filepath);
-            WriteToXml();
+            this.DeserializeOnFile(this.Filepath);
+            this.WriteToXml();
         }
 
         private void WriteToXml()
@@ -28,7 +30,7 @@ namespace XMLParser
                 writer.WriteStartDocument();
                 writer.WriteStartElement("urlAddresses");
 
-                foreach (UrlAddress url in urls)
+                foreach (UrlAddress url in this.urls)
                 {
                     writer.WriteStartElement("urlAddress");
 
@@ -74,13 +76,13 @@ namespace XMLParser
                 while (!reader.EndOfStream)
                 {
                     line = reader.ReadLine();
-                    if (IsValid(line))
+                    if (this.IsValid(line))
                     {
-                        urls.Add(DeserializeOnLine(line));
+                        this.urls.Add(this.DeserializeOnLine(line));
                     }
                     else
                     {
-                        //Log.Warn();
+                        ////Log.Warn();
                     }
                 }
             }
@@ -91,13 +93,14 @@ namespace XMLParser
             string[] parts;
             string parameters;
 
-            if (line.Contains("?")) {
+            if (line.Contains("?"))
+            {
                 parameters = line.Split('?')[1];
                 parts = Regex.Split(line.Split('?')[0], @"\:?\/+");
             }
             else
             {
-                parameters = "";
+                parameters = string.Empty;
                 parts = Regex.Split(line, @"\:?\/+");
             }
 
